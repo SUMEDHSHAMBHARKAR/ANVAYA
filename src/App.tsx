@@ -7,7 +7,7 @@ import { Decision } from './pages/Decision';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ANVAYA">
       <Routes>
         <Route path="/" element={<AppLayout />}>
           <Route index element={<Overview />} />
